@@ -1,0 +1,16 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.3.0'
+}
+
+group 'com.github.nomisrev'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven { url = "https://jitpack.io" }
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    compile "com.github.arrow-kt.arrow:arrow-instances-data:simon-indexedstatet-SNAPSHOT"
+}
